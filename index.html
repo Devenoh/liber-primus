@@ -1,0 +1,44 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale 1.0">
+		<link rel="stylesheet" href="styles.css">
+		<title>Beans</title> <!-- Standard procedure, SSDD and shit. -->
+	</head>
+	<!-- What you are about to read is something I have next to no grasp on. -->
+	<body>
+		<form action="/action_page.php"> <!-- This is a form. Forms are basically places where you can input information. -->
+			<label for="fname">First name:</label> <!-- These are labels for forms and such. -->
+			<input type="text" id="fname" name="fname"><br><br> <!-- These are inputs for the forms, where you actually put in info. -->
+			<label for="lname">Last name:</label>	
+			<input type="text" id="lname" name="lname"><br><br>
+		</form> 
+		<!-- Inputs can usually come in different types, such as "password" or "button" or "checkbox" or "radio" -->	
+		<!-- This allows you to collect different types of data and make different types of options for forms or quizzes or whatever.-->
+		<!-- This code can't actually collect any data because that requires JS and as of writing we haven't done that yet.-->
+		<label>Subscribe me to your newsletter</label>
+		<input type="checkbox" checked><br> <!-- After checkbox you can have "checked" after it before closing.-->
+											<!-- This makes the checkbox checked by default when you open the form.-->
+		<label>I agree to the T&C</label>
+		<input type="checkbox"><br>
+		
+		<label>I also like buttah dawgs</label>
+		<input type="checkbox"><br>
+		<br>
+		<form>
+			<input type="submit" value="Submit"> <!-- This is a button. Submit and Button basically do the same thing. -->	
+		</form> <!-- Typically, there's code you can add that makes sure all the info is corret but that's JS, so.. -->
+		
+		<label>I like...</label>
+		<select> <!-- So "select" creates a drop-down list, with the opsions here showing how it works. -->
+			<option>Cats</label>
+			<option>Dogs</label>
+			<option>Spiders</label>
+			<option>Elephants</label>
+			<option>Snakes</label>
+			<option>Beans</label>
+			<option>Uranium-235</label>
+		</select>
+	</body>
+</html>
